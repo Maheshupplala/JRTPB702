@@ -7,8 +7,10 @@ public class A {
 	 System.out.println("A.m1() sum is"+c );
  }
  public void sub(int a,int b) {
+
 	 
 	 int c= a-b;
 	 System.out.println("A.m1() sum is"+c );
+
  }
 }
