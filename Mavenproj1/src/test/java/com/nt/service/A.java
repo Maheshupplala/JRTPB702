@@ -9,4 +9,9 @@ public class A {
  public void sub(int a,int b) {
 	 System.out.println("sum is"+a+b);
  }
+ public String reverse(String text) {
+	 StringBuilder b=new StringBuilder (text);
+	 return (String)b.reverse().toString();
+	 
+ }
 }
